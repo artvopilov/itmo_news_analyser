@@ -1,0 +1,55 @@
+img {
+	position: fixed;
+	width: 8%;
+	margin-top: 10px;
+	margin-left: 25px;
+}
+td {
+	padding: 2px;
+}
+a {
+	text-decoration: none;
+}
+p {
+	font-family: cursive;
+	font-size: 20px;
+	text-shadow: 3px 2px 10px grey;
+}
+p:hover {
+	text-decoration: underline;
+}
+.title {
+	color: black;
+	display: block;
+}
+.title:hover {
+	background-color: white;
+	color: #cc0000;
+}
+.transition:not(:hover) {
+	transition: 2s;
+}
+.labelg {
+	color: black;
+	display: block;
+}
+.labelg:hover {
+	background-color: white;
+	color: green;
+}
+.labely {
+	color: black;
+	display: block;
+}
+.labely:hover {
+	background-color: white;
+	color: #ffcc00;
+}
+.labelb {
+	color: black;
+	display: block;
+}
+.labelb:hover {
+	background-color: white;
+	color: blue;
+}
